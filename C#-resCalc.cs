@@ -1,6 +1,6 @@
 /*
 Programmer: DHANUSH H V
-Prog Lang : Python
+Prog Lang : C#
 Function  : Prints the resistance value using 4 color codes
 Example:
 Sample Input:
