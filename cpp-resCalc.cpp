@@ -30,10 +30,25 @@ R = 220 (+/-)5% K-Ohm
 using namespace std;
 
 // function to return the index of an item in the vector
-int indexOf(vector<auto> items, auto item)
+int indexOf(vector<string> items, string item)
 {
     int index = -1;
-    for (int i=0; i<items.size(); i++)
+    for (int i = 0; i < items.size(); i++)
+    {
+        if (items[i] == item)
+        {
+            index = i;
+            break;
+        }
+    }
+
+    return index;
+}
+
+int indexOf(vector<float> items, float item)
+{
+    int index = -1;
+    for (int i = 0; i < items.size(); i++)
     {
         if (items[i] == item)
         {
